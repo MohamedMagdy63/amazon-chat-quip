@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container .containerTop{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00A8E1;
+    color: #FFF;
+}
+
+/* #FF9900 */
+.container .containerTop h1{
+
+}
+.container .containerTop .languageChoice {
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: inherit;
+    color: #FFF;
+    border: 0;
+    border-bottom: 2px solid  #FFF;
+    overflow: hidden;
+    outline: none;
+}
+.container .containerSection {
+    
+}
+
+.container .containerSection .DataUsed{
+    display:flex ;
+    flex-direction: row;
+    margin: 10px;
+}
+.container .containerSection .DataUsed input{
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    outline: none;
+}
+
